@@ -20,7 +20,7 @@
 5. Quick Sort
 
 # Path finding algorithms
-Djkstra Algorithm
-A* Allgorithm
-Breadth First Search
-Depth First Search
+1. Djkstra Algorithm
+2. A* Allgorithm
+3. Breadth First Search
+4. Depth First Search
