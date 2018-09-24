@@ -3,14 +3,13 @@
 # Data Structure Concepts
 
 1. Array
-2. Linked List
-3. Doubly Linked List
-4. Stack
-5. Queue
-6. PriorityQueue
-7. Binary Search
-8. Binary Search Tree
-9. Hash Table and HashMap
+2. Linked List - Single, Doubly, Circular
+3. Stack
+4. Queue
+5. PriorityQueue
+6. Binary Search
+7. Binary Search Tree
+8. Hash Table and HashMap
 
 # Sorting Algorithms
 1. Bubble
