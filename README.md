@@ -85,6 +85,10 @@ Advantages - <br>
 1) A DLL can be traversed in both forward and backward direction.
 2) The delete operation in DLL is more efficient if pointer to the node to be deleted is given.
 3) We can quickly insert a new node before a given node.
-In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer.
-
-
+In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer.<br>
+<br>
+<b>Time Complexity:</b></br>
+Access: O(n)
+Search: O(n)
+Insert: O(1)
+Remove: O(1)
