@@ -87,8 +87,8 @@ Advantages - <br>
 3) We can quickly insert a new node before a given node.
 In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer.<br>
 <br>
-<b>Time Complexity:</b></br>
-Access: O(n)
-Search: O(n)
-Insert: O(1)
-Remove: O(1)
+<b>Time Complexity:</b><br>
+Access: O(n)<br>
+Search: O(n)<br>
+Insert: O(1)<br>
+Remove: O(1)<br>
