@@ -134,3 +134,5 @@ Access: O(n)<br>
 Search: O(n)<br>
 Insert: O(1)<br>
 Remove: O(1)<br>
+
+# Stack
