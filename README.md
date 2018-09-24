@@ -55,7 +55,7 @@ Deletion is also expensive with arrays until unless some special techniques are 
 2) Extra memory space for a pointer is required with each element of the list.
 3) Not cache friendly. Since array elements are contiguous locations, there is locality of reference which is not there in case of linked lists.
 
-<b> Representation: </b>
+<b> Representation: </b> <br>
 A linked list is represented by a pointer to the first node of the linked list. The first node is called head. If the linked list is empty, then value of head is NULL.
 Each node in a list consists of at least two parts:
 1) data
