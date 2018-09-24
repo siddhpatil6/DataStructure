@@ -60,5 +60,4 @@ A linked list is represented by a pointer to the first node of the linked list. 
 Each node in a list consists of at least two parts:
 1) data
 2) Pointer (Or Reference) to the next node
-In C, we can represent a node using structures. Below is an example of a linked list node with an integer data.
-In Java, LinkedList can be represented as a class and a Node as a separate class. The LinkedList class contains a reference of Node class type.
+
