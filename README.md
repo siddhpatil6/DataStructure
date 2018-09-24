@@ -64,7 +64,7 @@ Each node in a list consists of at least two parts:
 ## Circular Linked List -
 Circular linked list is a linked list where all nodes are connected to form a circle. There is no NULL at the end. A circular linked list can be a singly circular linked list or doubly circular linked list.
 
-Advantages of Circular Linked Lists:
+Advantages of Circular Linked Lists: <br>
 1) Any node can be a starting point. We can traverse the whole list by starting from any point. We just need to stop when the first visited node is visited again.
 
 2) Useful for implementation of queue. Unlike this implementation, we don’t need to maintain two pointers for front and rear if we use circular linked list. We can maintain a pointer to the last inserted node and front can always be obtained as next of last.
@@ -75,5 +75,13 @@ Advantages of Circular Linked Lists:
 
 ## Doubly Linked List -
 
+A Doubly Linked List (DLL) contains an extra pointer, typically called previous pointer, together with next pointer and data which are there in singly linked list.
 
+![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/03/DLL1.png)
+
+Advantages - <br>
+1) A DLL can be traversed in both forward and backward direction.
+2) The delete operation in DLL is more efficient if pointer to the node to be deleted is given.
+3) We can quickly insert a new node before a given node.
+In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer.
 
