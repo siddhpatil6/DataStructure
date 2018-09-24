@@ -1,4 +1,4 @@
-# DataStructure
+# Data Structure
 
 # Data Structure Concepts
 
