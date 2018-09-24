@@ -61,6 +61,26 @@ Each node in a list consists of at least two parts:
 1) data
 2) Pointer (Or Reference) to the next node
 
+```
+
+class LinkedList 
+{ 
+    Node head;  // head of list 
+  
+    /* Linked list Node*/
+    class Node 
+    { 
+        int data; 
+        Node next; 
+           
+        // Constructor to create a new node 
+        // Next is by default initialized 
+        // as null 
+        Node(int d) {data = d;} 
+    } 
+}
+```
+
 ## Circular Linked List -
 Circular linked list is a linked list where all nodes are connected to form a circle. There is no NULL at the end. A circular linked list can be a singly circular linked list or doubly circular linked list.
 
@@ -87,6 +107,25 @@ A Doubly Linked List (DLL) contains an extra pointer, typically called previous 
 3) We can quickly insert a new node before a given node.
 In singly linked list, to delete a node, pointer to the previous node is needed. To get this previous node, sometimes the list is traversed. In DLL, we can get the previous node using previous pointer.<br>
 <br>
+
+
+```
+// Class for Doubly Linked List 
+public class DLL { 
+    Node head; // head of list 
+  
+    /* Doubly Linked list Node*/
+    class Node { 
+        int data; 
+        Node prev; 
+        Node next; 
+  
+        // Constructor to create a new node 
+        // next and prev is by default initialized as null 
+        Node(int d) { data = d; } 
+    } 
+} 
+```
 <b>Time Complexity:</b><br>
 Access: O(n)<br>
 Search: O(n)<br>
