@@ -81,7 +81,7 @@ A Doubly Linked List (DLL) contains an extra pointer, typically called previous 
 
 ![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2014/03/DLL1.png)
 
-Advantages - <br>
+<b> Advantages </b> - <br>
 1) A DLL can be traversed in both forward and backward direction.
 2) The delete operation in DLL is more efficient if pointer to the node to be deleted is given.
 3) We can quickly insert a new node before a given node.
