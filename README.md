@@ -136,3 +136,8 @@ Insert: O(1)<br>
 Remove: O(1)<br>
 
 # Stack
+
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+
+
+![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/stack.png)
