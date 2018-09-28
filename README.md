@@ -156,3 +156,100 @@ There are many real life examples of stack. Consider the simple example of plate
 <b>Time Complexities of operations on stack:</b> <br>
 
 push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations.
+
+
+<b> Analysis of Stack Operations </b> <br>
+Below mentioned are the time complexities for various operations that can be performed on the Stack data structure.<br>
+
+1. Push Operation : O(1)
+2. Pop Operation : O(1)
+3. Top Operation : O(1)
+4. Search Operation : O(n)
+
+<b> Algorithm for PUSH operation <b> <br>
+1. Check if the stack is full or not.
+2. If the stack is full, then print error of overflow and exit the program.
+3. If the stack is not full, then increment the top and add the element.
+
+
+<b> Algorithm for POP operation <b> <br>
+1. Check if the stack is empty or not.
+2. If the stack is empty, then print error of underflow and exit the program.
+3. If the stack is not empty, then print the element at the top and decrement the top.
+    
+```    
+/*  Below program is written in C++ language  */
+
+# include<iostream>
+
+using namespace std;
+
+class Stack
+{
+    int top;
+    public:
+    int a[10];  //Maximum size of Stack
+    Stack()
+    {
+        top = -1;
+    }
+    
+    // declaring all the function
+    void push(int x);
+    int pop();
+    void isEmpty();
+};
+
+// function to insert data into stack
+void Stack::push(int x)
+{
+    if(top >= 10)
+    {
+        cout << "Stack Overflow \n";
+    }
+    else
+    {
+        a[++top] = x;
+        cout << "Element Inserted \n";
+    }
+}
+
+// function to remove data from the top of the stack
+int Stack::pop()
+{
+    if(top < 0)
+    {
+        cout << "Stack Underflow \n";
+        return 0;
+    }
+    else
+    {
+        int d = a[top--];
+        return d;
+    }
+}
+
+// function to check if stack is empty
+void Stack::isEmpty()
+{
+    if(top < 0)
+    {
+        cout << "Stack is empty \n";
+    }
+    else
+    {
+        cout << "Stack is not empty \n";
+    }
+}
+
+// main function
+int main() {
+
+    Stack s1;
+    s1.push(10);
+    s1.push(100);
+    /*
+        preform whatever operation you want on the stack
+    */
+}
+```
