@@ -137,7 +137,22 @@ Remove: O(1)<br>
 
 # Stack
 
-Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).
+Stack is a linear data structure which follows a particular order in which the operations are performed. The order may be LIFO(Last In First Out) or FILO(First In Last Out).<br>
 
 
-![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/stack.png)
+![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/stack.png)<br>
+
+
+Mainly the following three basic operations are performed in the stack:<br>
+<br>
+Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.<br>
+Pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.<br>
+Peek or Top: Returns top element of stack.<br>
+isEmpty: Returns true if stack is empty, else false.<br>
+
+<b>How to understand a stack practically?</b> <br>
+There are many real life examples of stack. Consider the simple example of plates stacked over one another in canteen. The plate which is at the top is the first one to be removed, i.e. the plate which has been placed at the bottommost position remains in the stack for the longest period of time. So, it can be simply seen to follow LIFO/FILO order.
+
+<b>Time Complexities of operations on stack:</b> <br>
+
+push(), pop(), isEmpty() and peek() all take O(1) time. We do not run any loop in any of these operations.
