@@ -143,7 +143,7 @@ Stack is a linear data structure which follows a particular order in which the o
 ![](https://www.geeksforgeeks.org/wp-content/uploads/gq/2013/03/stack.png)<br>
 
 
-Mainly the following three basic operations are performed in the stack:<br>
+<b> Mainly the following three basic operations are performed in the stack:</b><br>
 <br>
 Push: Adds an item in the stack. If the stack is full, then it is said to be an Overflow condition.<br>
 Pop: Removes an item from the stack. The items are popped in the reversed order in which they are pushed. If the stack is empty, then it is said to be an Underflow condition.<br>
