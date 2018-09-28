@@ -166,13 +166,13 @@ Below mentioned are the time complexities for various operations that can be per
 3. Top Operation : O(1)
 4. Search Operation : O(n)
 
-<b> Algorithm for PUSH operation <b> <br>
+<b> Algorithm for PUSH operation </b> <br>
 1. Check if the stack is full or not.
 2. If the stack is full, then print error of overflow and exit the program.
 3. If the stack is not full, then increment the top and add the element.
 
 
-<b> Algorithm for POP operation <b> <br>
+<b> Algorithm for POP operation </b> <br>
 1. Check if the stack is empty or not.
 2. If the stack is empty, then print error of underflow and exit the program.
 3. If the stack is not empty, then print the element at the top and decrement the top.
